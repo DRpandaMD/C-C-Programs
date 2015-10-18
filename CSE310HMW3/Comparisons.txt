@@ -1,0 +1,12 @@
+InsertionSort 	test.txt	Number of Comparisons:  10
+
+QuickSort /ttest.txt/tNumber of Comparisons:  15
+
+QuickSort /ttest.txt/tNumber of Comparisons:  15
+
+QuickSort /ttest.txt/tNumber of Comparisons:  15
+
+QuickSort 	test.txt	Number of Comparisons:  15
+
+QuickSort 	test.txt	Number of Comparisons:  0
+

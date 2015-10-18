@@ -1,0 +1,20 @@
+13:45:42 **** Incremental Build of configuration Debug for project Project1 ****
+make all 
+Building target: Project1
+Invoking: MacOS X C Linker
+gcc  -o "Project1"  ./Main.o ./parseArgs.o ./print.o ./vehicles.o   
+duplicate symbol _neighborCount in:
+    ./Main.o
+    ./parseArgs.o
+duplicate symbol _neighborCount in:
+    ./Main.o
+    ./print.o
+duplicate symbol _neighborCount in:
+    ./Main.o
+    ./vehicles.o
+ld: 3 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Project1] Error 1
+
+13:45:42 Build Finished (took 84ms)
+

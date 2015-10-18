@@ -1,0 +1,32 @@
+13:45:41 **** Incremental Build of configuration Debug for project CodeHomework3 ****
+make all 
+Building target: CodeHomework3
+Invoking: MacOS X C Linker
+gcc  -o "CodeHomework3"  ./cse220-h3/main.o ./cse220-h3/options.o  ./main.o ./options.o   
+duplicate symbol _main in:
+    ./cse220-h3/main.o
+    ./main.o
+duplicate symbol _checkPrime in:
+    ./cse220-h3/main.o
+    ./main.o
+duplicate symbol _reverseNum in:
+    ./cse220-h3/main.o
+    ./main.o
+duplicate symbol _palindrome in:
+    ./cse220-h3/main.o
+    ./main.o
+duplicate symbol _primes in:
+    ./cse220-h3/main.o
+    ./main.o
+duplicate symbol _reversal in:
+    ./cse220-h3/main.o
+    ./main.o
+duplicate symbol _options in:
+    ./cse220-h3/options.o
+    ./options.o
+ld: 7 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CodeHomework3] Error 1
+
+13:45:42 Build Finished (took 78ms)
+

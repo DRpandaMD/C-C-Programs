@@ -1,0 +1,20 @@
+13:45:42 **** Incremental Build of configuration Debug for project ExampleCode ****
+make all 
+Building target: ExampleCode
+Invoking: MacOS X C++ Linker
+g++  -o "ExampleCode"  ./CopyConstructor.o ./FriendExample.o ./Overloading1.o   
+duplicate symbol _main in:
+    ./CopyConstructor.o
+    ./FriendExample.o
+duplicate symbol __ZN6assignaSERKS_ in:
+    ./CopyConstructor.o
+    ./Overloading1.o
+duplicate symbol _main in:
+    ./CopyConstructor.o
+    ./Overloading1.o
+ld: 3 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [ExampleCode] Error 1
+
+13:45:42 Build Finished (took 119ms)
+

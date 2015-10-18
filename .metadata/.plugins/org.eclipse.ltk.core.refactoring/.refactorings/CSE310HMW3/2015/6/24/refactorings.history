@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CSE310HMW3/InserstionSort.cpp&apos; to &apos;InsertionSort.cpp&apos;" description="Rename resource &apos;InserstionSort.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="InserstionSort.cpp" name="InsertionSort.cpp" stamp="1433982297797" updateReferences="true"/>
+</session>

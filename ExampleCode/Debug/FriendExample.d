@@ -1,0 +1,1 @@
+FriendExample.d: ../FriendExample.cpp

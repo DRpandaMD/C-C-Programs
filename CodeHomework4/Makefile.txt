@@ -1,0 +1,13 @@
+C = gcc
+CFLAGS = -c -w -g
+
+prog: main.o options.o
+         $(CC) main.o count.o -o prog
+
+main.o: main.c
+         $(CC) $(CFLAGS) main.c count.h
+
+options.o: count.c
+        $(CC) $(CFLAGS) count.c
+clean:
+        rm -rf *.o prog

@@ -1,0 +1,1 @@
+powerTo.d: ../powerTo.c

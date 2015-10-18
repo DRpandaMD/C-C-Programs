@@ -1,0 +1,71 @@
+13:45:43 **** Incremental Build of configuration Debug for project Project2 ****
+make all 
+Building file: ../SystemMain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"SystemMain.d" -MT"SystemMain.d" -o "SystemMain.o" "../SystemMain.cpp"
+../SystemMain.cpp:28:1: error: 'main' must return 'int'
+void main()
+^~~~
+int
+../SystemMain.cpp:31:2: error: use of undeclared identifier 'start'
+        start();
+        ^
+../SystemMain.cpp:32:2: error: use of undeclared identifier 'initializeUsers'
+        initializeUsers();
+        ^
+../SystemMain.cpp:40:2: error: use of undeclared identifier 'quit'
+        quit();
+        ^
+../SystemMain.cpp:70:11: error: call to non-static member function without an object argument
+        if(User::getName() == string )
+           ~~~~~~^~~~~~~
+../SystemMain.cpp:70:24: error: unexpected type name 'string': expected expression
+        if(User::getName() == string )
+                              ^
+../SystemMain.cpp:102:13: error: no matching constructor for initialization of 'User::User'
+        User::User(Joe);
+                   ^
+../User.h:23:2: note: candidate constructor not viable: requires 1 argument, but 0 were provided
+        User(string);
+        ^
+../User.h:20:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+class User
+      ^
+../SystemMain.cpp:103:13: error: no matching constructor for initialization of 'User::User'
+        User::User(Bob);
+                   ^
+../User.h:23:2: note: candidate constructor not viable: requires 1 argument, but 0 were provided
+        User(string);
+        ^
+../User.h:20:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+class User
+      ^
+../SystemMain.cpp:104:13: error: no matching constructor for initialization of 'User::User'
+        User::User(Mark);
+                   ^
+../User.h:23:2: note: candidate constructor not viable: requires 1 argument, but 0 were provided
+        User(string);
+        ^
+../User.h:20:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+class User
+      ^
+../SystemMain.cpp:105:13: error: no matching constructor for initialization of 'User::User'
+        User::User(Jane);
+                   ^
+../User.h:23:2: note: candidate constructor not viable: requires 1 argument, but 0 were provided
+        User(string);
+        ^
+../User.h:20:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+class User
+      ^
+../SystemMain.cpp:115:13: error: redefinition of 'userName' with a different type: 'User::User' vs 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >')
+        User::User(userName); //creates a new object of that type with user defined name
+                   ^
+../SystemMain.cpp:111:9: note: previous definition is here
+        string userName;
+               ^
+11 errors generated.
+make: *** [SystemMain.o] Error 1
+
+13:45:43 Build Finished (took 605ms)
+

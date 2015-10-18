@@ -1,0 +1,14 @@
+13:45:40 **** Incremental Build of configuration Debug for project CSE310HMW1 ****
+make all 
+Building target: CSE310HMW1
+Invoking: MacOS X C++ Linker
+g++  -o "CSE310HMW1"  ./question1.o ./question2.o   
+duplicate symbol _main in:
+    ./question1.o
+    ./question2.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CSE310HMW1] Error 1
+
+13:45:40 Build Finished (took 84ms)
+

@@ -1,0 +1,23 @@
+13:45:42 **** Incremental Build of configuration Debug for project CodeHomework4 ****
+make all 
+Building target: CodeHomework4
+Invoking: MacOS X C Linker
+gcc  -o "CodeHomework4"  ./cse220-h04/count.o ./cse220-h04/main.o  ./count.o ./main.o   
+duplicate symbol _computeOccurrences in:
+    ./cse220-h04/count.o
+    ./count.o
+duplicate symbol _counting in:
+    ./cse220-h04/count.o
+    ./count.o
+duplicate symbol _main in:
+    ./cse220-h04/main.o
+    ./main.o
+duplicate symbol _fp in:
+    ./cse220-h04/main.o
+    ./main.o
+ld: 4 duplicate symbols for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [CodeHomework4] Error 1
+
+13:45:42 Build Finished (took 116ms)
+
